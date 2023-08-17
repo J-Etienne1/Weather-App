@@ -9,9 +9,6 @@
 </head>
 
 <body>
-
-
-
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter City Name" spellcheck="fasle" />
@@ -20,15 +17,19 @@
             </button>
         </div>
 
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+
         <div class="weather">
-            <img src="images/rain.png" class="weather-icon" alt="">
+            <img src="images/rain.png" class="weather-icon" alt="" />
             <h1 class="temp">22°C</h1>
             <h2 class="city">Dublin</h2>
 
             <div class="details">
-
                 <div class="col">
-                    <img src="images/humidity.png" alt="">
+                    <img src="images/humidity.png" alt="" />
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
@@ -36,30 +37,15 @@
                 </div>
 
                 <div class="col">
-                    <img src="images/wind.png" alt="">
+                    <img src="images/wind.png" alt="" />
                     <div>
                         <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
                     </div>
                 </div>
-                
             </div>
-
-
-
         </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
 
     <script type="module" src="index.js"></script>
 </body>
